@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMod", "TemplateMod\TemplateMod.csproj", "{CFF2C95F-438C-46B1-AECB-C559B66CB60D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerrariaCatalyst.TemplateLib", "TerrariaCatalyst.TemplateLib\TerrariaCatalyst.TemplateLib.csproj", "{020890C2-0521-4E02-8705-07C4D8FDCBF3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCatalyst.TemplateLib", "TeamCatalyst.TemplateLib\TeamCatalyst.TemplateLib.csproj", "{020890C2-0521-4E02-8705-07C4D8FDCBF3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
