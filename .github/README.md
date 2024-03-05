@@ -28,3 +28,11 @@ After running the setup script, you can build any mod project with `dotnet build
 As mentioned in [Building](#building), symbolic links are used. These are used to mimic the expected tModLoader mod directory setup. Your cloned repository is included in `ModSources/` but isn't actually a mod. Normally, any mods within `src/` would go unrecognized. To fix this, symbolic links are generated that lie within `ModSources/` and point to the projects in `src/`. The allows for tML to detect your mods, reference assets like icons for publishing, and properly update and hot reload localization files.
 
 Generating symbolic links may require administrator/root permissions.
+
+## Generating Projects
+
+You can generate projects with the `gen-mod.js` and `gen-library.js` scripts, which will create a new mod or library project respectively.
+
+When generating a mod, you should pass in both the namespace and internal mod name (assembly name) as arguments. When generating a library, you should just pass in the namespace (assembly name).
+
+To generate the solution file, run `gen-sln.js` with the name as input. **Generating mods and libraries will not automatically add them to the solution.**
