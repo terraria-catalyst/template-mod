@@ -1,3 +1,0 @@
-displayName = TemplateMod
-author = Me
-version = 1.0.0
